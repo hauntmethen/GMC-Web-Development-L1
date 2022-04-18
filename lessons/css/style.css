@@ -1,0 +1,161 @@
+body {
+    background-color: #ECDFC8;  
+    font-family: 'Roboto', sans-serif;   
+    margin: 0%;
+}
+
+/* nav */
+
+nav {
+  background-color: #C37857;
+  padding: 1%;
+  margin-bottom: 2%;
+
+}
+.offf {
+height: 20px;
+}
+
+.arrrow {
+  height: 20px;
+
+}
+
+.navbar {
+  position: relative;
+  display: flex;
+}
+
+.navbar .navbar1 {
+  padding-right: 5%;
+  margin-top: 1%;
+
+}
+
+.navbar .navbar2 {
+  padding-right: 70%;
+  position: relative;
+  display: flex;
+}
+.navbar2img {
+  padding-right: 5%;
+
+}
+
+.navbar .navbar3 {
+  margin-top: 1%;
+
+}
+
+.navbar .navbar2 h1 {
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 28px;
+  color: #FFD362;
+}
+
+
+/* nav */
+
+
+.main h3 {
+  font-weight: lighter;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.main {
+  position: relative;
+  display: flex;
+  text-align: center;
+}
+ .main1 {
+   padding-right: 8%;
+   padding-left: 6%;
+   width: 340px;
+
+ }
+
+ .main2 {
+   width: 340px;
+ }
+
+ul {
+  list-style: none;
+}
+
+.collapsible {
+    background-color: #fff;
+    color: #734444;
+    cursor: pointer;
+    margin: 2%;
+    height: auto;
+    border: none;
+    padding-left: 15%;
+    padding-right: 15%;  
+    text-align: center;
+    font-size: 15px;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.06);
+
+  }
+  
+  .active, .collapsible:hover {
+    background-color: white;
+    font-size: 15px;
+
+  }
+  
+  .content {
+    display: none;
+    background-color: #fff;
+    overflow: hidden;
+    width: 300px;
+    padding: 2%;
+
+  }
+
+  .collapsible:after {
+    content: '\02795'; 
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-left: 5px;
+    height: auto;
+  }
+  
+  .active:after {
+    content: "\2796"; 
+  }
+
+  a {
+    text-decoration: none;
+    color: #6C8851;
+  }
+
+  /** down **/
+.down {
+  position: relative;
+  display: flex;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.right {
+  padding-left: 70%;
+}
+.left {
+  padding-left: 2%;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 6%;
+}
+
+footer p {
+  text-align: right;
+  font-style: bold;
+  margin-right: 3%;
+  color: #C37857;
+}
